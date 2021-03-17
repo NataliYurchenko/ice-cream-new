@@ -1,0 +1,32 @@
+.container {
+  padding: 0 20px;
+  width: 100%;
+
+  .gallery & {
+    padding: 0;
+  }
+
+  .footer &{
+    padding-bottom: 43px;
+  }
+  
+  @media screen and (min-width: 480px) {
+    margin: 0 auto;
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+
+    .footer &{
+      display: flex;
+      padding-bottom: 91px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+
+    .footer &{
+      padding-bottom: 97px;
+    }
+  }
+}
